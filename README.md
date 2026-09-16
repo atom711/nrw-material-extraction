@@ -23,7 +23,7 @@ The ingestion engine processes complex scattering network matrices through the f
 4. **Validation Layer:** Evaluates programmatic outcomes against a standardized target low-loss fiberglass radome baseline parameter ($\tan \delta = 0.02$).
 
 ## Repository Architecture
-* `src/NRW_extractions.py` - Core Python processing script implementing the inversion engine.
+* `src/NRWExtractionEngine.py` - Core Python processing script implementing the inversion engine.
 * `plots/material_extraction_plot.png` - Extracted material parameters vs. target specification baselines.
 * `requirements.txt` - Python module dependency manifest.
 * `.gitignore` - Standard git runtime file exclusion mask.
