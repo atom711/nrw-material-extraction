@@ -1,7 +1,7 @@
 # Nicolson-Ross-Weir (NRW) Complex Permittivity Inversion Engine
 
 ## Objective & Purpose
-This repository houses an automated Python processing pipeline designed to extract continuous complex relative permittivity ($\epsilon^*_r = \epsilon'_r - j\epsilon''_r$) and absolute dielectric loss tangent ($\tan \delta$) from 2-port complex scattering parameters ($S_{11}, S_{21}$). 
+This repository houses an automated Python processing pipeline designed to extract continuous complex relative permittivity $\epsilon^*_r = \epsilon'_r - j\epsilon''_r$ and absolute dielectric loss tangent $\tan \delta$ from 2-port complex scattering parameters ($S_{11}, S_{21}$). 
 
 The framework implements the classic **Nicolson-Ross-Weir (NRW)** parameter inversion equations across an X/Ku-band radar frequency sweep, optimizing the calculations to entirely bypass mathematical branch divergence and phase ambiguity stability failures.
 
