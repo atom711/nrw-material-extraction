@@ -6,7 +6,7 @@ This repository houses an automated Python processing pipeline designed to extra
 $$\epsilon^*_r = \epsilon'_r - j\epsilon''_r \quad \text{and} \quad \tan \delta$$
 
 
-The framework implements the classic **Nicolson-Ross-Weir (NRW)** parameter inversion equations across an X/Ku-band radar frequency sweep, optimizing the calculations to entirely bypass mathematical branch divergence and phase ambiguity stability failures.
+The framework implements **Nicolson-Ross-Weir (NRW)** parameter inversion equations across an X/Ku-band radar frequency sweep, optimizing the calculations to entirely bypass mathematical branch divergence and phase ambiguity stability failures.
 
 ## Signal Processing Pipeline
 The ingestion engine processes complex scattering network matrices through the following analytical architecture:
@@ -37,7 +37,7 @@ The inverted scattering matrix tracks absolute convergence across the entire wid
 * **Bottom Panel (Loss Tangent $\tan \delta$):** Verifies tightly constrained material energy dissipation tracking centered cleanly on the **0.02 target specification window**.
 
 ## Execution & Requirements
-The codebase utilizes `numpy` and `matplotlib` to handle high-dimensional vector loops. Install the dependencies and run the core script locally to verify compliance:
+The codebase utilizes `numpy` and `matplotlib` to handle high-dimensional vector loops.
 
 ```bash
 pip install -r requirements.txt
