@@ -41,5 +41,5 @@ The codebase utilizes `numpy` and `matplotlib` to handle high-dimensional vector
 
 ```bash
 pip install -r requirements.txt
-python src/NRW_extractions.py
+python src/NRWExtractionEngine.py
 ```
